@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+html{
+  font-size: 16px;
+}
+.top-section{
+  position: relative;
+  height: 300px;
+  width: 100%;
+  background: url("./img/top1.jpg")left no-repeat;
+  background-size: cover;
+  background-position: left -20px top 0;
+  padding: 20px;
+}
+.ham{
+  position: absolute;
+  top: 30px;
+  left: 20px;
+  width: 30px;
+  height: 30px;
+}
+.top-section-title{
+  padding-top: 50px;
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  font-size: 2.8rem;
+  line-height: 2.4rem;
+  margin-bottom: 20px
+}
+.main-cta{
+  padding: 5px 30px;
+  border-radius: 50px;
+  color: #fff;
+  background: #555;
+  font-size: 1rem;
+
+}
+.main-cta:focus{
+  outline: none;
+}
+.bottom-section{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item {
+  width: 50%;
+  background-size: cover;
+  background-position: center;
+}
+.item img{
+  width: 100%;
+}
+.side-menu-icon-container{
+  width: 30px;
+  position: fixed;
+  right: 20px
+  top:40vh;
+}
+.side-menu-icon-container img{
+  width: 100%;
+}
